@@ -319,6 +319,9 @@ Public Class NGOs
                     Offert.Currency = ItemRow2.ItemArray(6).ToString()
                     Offert.Scales = ItemRow2.ItemArray(7).ToString()
                     Offert.CabinType = ItemRow2.ItemArray(8).ToString()
+                    Offert.DepartureDate = ItemRow2.ItemArray(9).ToString()
+                    Offert.ReturnDate = ItemRow2.ItemArray(10).ToString()
+
 
                     NgosOffert.Add(Offert)
 

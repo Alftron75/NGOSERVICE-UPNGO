@@ -8,4 +8,6 @@
     Public Property Currency As String
     Public Property Scales As String
     Public Property CabinType As String
+    Public Property DepartureDate As String
+    Public Property ReturnDate As String
 End Class
